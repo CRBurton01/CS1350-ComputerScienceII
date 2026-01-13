@@ -3,6 +3,7 @@
 # 1/13/2026
 # CS1350-Week1-Lab.py
 
+# Lecture 1
 # Unit 1.1 - Dictionary Fundamentals
 my_info = {"name" : "Cody", "age" : 19, "major" : "Cybersecurity"}
 
@@ -54,3 +55,4 @@ removed_teams = scores.pop("Team A")
 print(f"Removed Team A with score {removed_teams}")
 print(scores)
 
+# End of Lecture 1
