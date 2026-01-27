@@ -173,4 +173,4 @@ student_ids = {"Alice": 101, "Bob": 102}
 st_id_inverted = {id_: name for name, id_ in student_ids.items()}
 print(st_id_inverted)
 
-# End of Lecture 1
+# End of Week 2 Lab
