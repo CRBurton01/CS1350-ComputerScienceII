@@ -278,3 +278,30 @@ missing_numbers = expected - actual
 
 # End of Lecture 1
 
+# Lecture 2
+print()
+print("=" * 10 + " Lecture 2 " + "=" * 10)
+# Unit 1.1 What is NumPy?
+import numpy as np # python -m pip install numpy 
+
+a = [1, 2, 3, 4, 5]
+b = [10, 20, 30, 40, 50]
+
+print(f"{a + b}")  # Doesnt add element-wise, just concatenates lists
+
+#Adding lists is tedious normally!
+# With NumPy:
+a = np.array([1, 2, 3, 4, 5])
+b = np.array([10, 20, 30, 40, 50])
+
+print(f"{a + b}")  # Adds element-wise
+
+# Practice Exercises
+print(type(b))
+
+a = np.array([1,2,3])
+b = np.array([4,5,6])
+print(a + b)
+print(a * b)
+
+# Unit 1.2 NumPy Arrays vs Python Lists
