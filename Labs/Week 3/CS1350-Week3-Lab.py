@@ -9,7 +9,6 @@
 # Creating sets
 from unittest import result
 
-
 colors = {"red", "green", "blue"}
 print(f"Colors: {colors}")
 print(f"Type: {type(colors)}")
