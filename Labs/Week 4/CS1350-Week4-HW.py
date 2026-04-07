@@ -1,7 +1,7 @@
 # CS1350 - Computer Science II
 # Cody Burton
 # 1/27/2026
-# CS1350-Week3-HW.py
+# CS1350-Week4-HW.py
 
 # Program Imports
 import numpy as np
